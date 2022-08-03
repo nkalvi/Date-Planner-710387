@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EDC388B289AF2C200D08D2C /* Date_Planner_710387App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC388A289AF2C200D08D2C /* Date_Planner_710387App.swift */; };
-		3EDC388D289AF2C200D08D2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC388C289AF2C200D08D2C /* ContentView.swift */; };
-		3EDC388F289AF2C300D08D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDC388E289AF2C300D08D2C /* Assets.xcassets */; };
-		3EDC3892289AF2C300D08D2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDC3891289AF2C300D08D2C /* Preview Assets.xcassets */; };
+		3EDC38AB289AF2EC00D08D2C /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC3899289AF2EC00D08D2C /* EventRow.swift */; };
+		3EDC38AC289AF2EC00D08D2C /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC389A289AF2EC00D08D2C /* EventData.swift */; };
+		3EDC38AD289AF2EC00D08D2C /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC389B289AF2EC00D08D2C /* SymbolPicker.swift */; };
+		3EDC38AE289AF2EC00D08D2C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC389C289AF2EC00D08D2C /* Event.swift */; };
+		3EDC38AF289AF2EC00D08D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDC389D289AF2EC00D08D2C /* Assets.xcassets */; };
+		3EDC38B0289AF2EC00D08D2C /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC389E289AF2EC00D08D2C /* SFSymbolStyling.swift */; };
+		3EDC38B1289AF2EC00D08D2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDC38A0289AF2EC00D08D2C /* Preview Assets.xcassets */; };
+		3EDC38B2289AF2EC00D08D2C /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC38A1289AF2EC00D08D2C /* TaskRow.swift */; };
+		3EDC38B3289AF2EC00D08D2C /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC38A2289AF2EC00D08D2C /* EventList.swift */; };
+		3EDC38B4289AF2EC00D08D2C /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC38A3289AF2EC00D08D2C /* EventSymbols.swift */; };
+		3EDC38B5289AF2EC00D08D2C /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC38A4289AF2EC00D08D2C /* EventEditor.swift */; };
+		3EDC38B6289AF2EC00D08D2C /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC38A5289AF2EC00D08D2C /* ColorOption.swift */; };
+		3EDC38B7289AF2EC00D08D2C /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC38A6289AF2EC00D08D2C /* EventTask.swift */; };
+		3EDC38B8289AF2EC00D08D2C /* DatePlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC38A7289AF2EC00D08D2C /* DatePlannerApp.swift */; };
+		3EDC38B9289AF2EC00D08D2C /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC38A8289AF2EC00D08D2C /* EventDetail.swift */; };
+		3EDC38BA289AF2EC00D08D2C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3EDC38A9289AF2EC00D08D2C /* README.md */; };
+		3EDC38BB289AF2EC00D08D2C /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3EDC38AA289AF2EC00D08D2C /* License.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EDC3887289AF2C200D08D2C /* Date Planner-710387.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Date Planner-710387.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EDC388A289AF2C200D08D2C /* Date_Planner_710387App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_Planner_710387App.swift; sourceTree = "<group>"; };
-		3EDC388C289AF2C200D08D2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3EDC388E289AF2C300D08D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3EDC3891289AF2C300D08D2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EDC3899289AF2EC00D08D2C /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		3EDC389A289AF2EC00D08D2C /* EventData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		3EDC389B289AF2EC00D08D2C /* SymbolPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		3EDC389C289AF2EC00D08D2C /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		3EDC389D289AF2EC00D08D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDC389E289AF2EC00D08D2C /* SFSymbolStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		3EDC38A0289AF2EC00D08D2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EDC38A1289AF2EC00D08D2C /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		3EDC38A2289AF2EC00D08D2C /* EventList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		3EDC38A3289AF2EC00D08D2C /* EventSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		3EDC38A4289AF2EC00D08D2C /* EventEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		3EDC38A5289AF2EC00D08D2C /* ColorOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
+		3EDC38A6289AF2EC00D08D2C /* EventTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		3EDC38A7289AF2EC00D08D2C /* DatePlannerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePlannerApp.swift; sourceTree = "<group>"; };
+		3EDC38A8289AF2EC00D08D2C /* EventDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		3EDC38A9289AF2EC00D08D2C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3EDC38AA289AF2EC00D08D2C /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +61,9 @@
 		3EDC387E289AF2C200D08D2C = {
 			isa = PBXGroup;
 			children = (
-				3EDC3889289AF2C200D08D2C /* Date Planner-710387 */,
+				3EDC3898289AF2EC00D08D2C /* App */,
+				3EDC38AA289AF2EC00D08D2C /* License.txt */,
+				3EDC38A9289AF2EC00D08D2C /* README.md */,
 				3EDC3888289AF2C200D08D2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,21 +76,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3EDC3889289AF2C200D08D2C /* Date Planner-710387 */ = {
+		3EDC3898289AF2EC00D08D2C /* App */ = {
 			isa = PBXGroup;
 			children = (
-				3EDC388A289AF2C200D08D2C /* Date_Planner_710387App.swift */,
-				3EDC388C289AF2C200D08D2C /* ContentView.swift */,
-				3EDC388E289AF2C300D08D2C /* Assets.xcassets */,
-				3EDC3890289AF2C300D08D2C /* Preview Content */,
+				3EDC3899289AF2EC00D08D2C /* EventRow.swift */,
+				3EDC389A289AF2EC00D08D2C /* EventData.swift */,
+				3EDC389B289AF2EC00D08D2C /* SymbolPicker.swift */,
+				3EDC389C289AF2EC00D08D2C /* Event.swift */,
+				3EDC389D289AF2EC00D08D2C /* Assets.xcassets */,
+				3EDC389E289AF2EC00D08D2C /* SFSymbolStyling.swift */,
+				3EDC389F289AF2EC00D08D2C /* Preview Content */,
+				3EDC38A1289AF2EC00D08D2C /* TaskRow.swift */,
+				3EDC38A2289AF2EC00D08D2C /* EventList.swift */,
+				3EDC38A3289AF2EC00D08D2C /* EventSymbols.swift */,
+				3EDC38A4289AF2EC00D08D2C /* EventEditor.swift */,
+				3EDC38A5289AF2EC00D08D2C /* ColorOption.swift */,
+				3EDC38A6289AF2EC00D08D2C /* EventTask.swift */,
+				3EDC38A7289AF2EC00D08D2C /* DatePlannerApp.swift */,
+				3EDC38A8289AF2EC00D08D2C /* EventDetail.swift */,
 			);
-			path = "Date Planner-710387";
+			path = App;
 			sourceTree = "<group>";
 		};
-		3EDC3890289AF2C300D08D2C /* Preview Content */ = {
+		3EDC389F289AF2EC00D08D2C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3EDC3891289AF2C300D08D2C /* Preview Assets.xcassets */,
+				3EDC38A0289AF2EC00D08D2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,8 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EDC3892289AF2C300D08D2C /* Preview Assets.xcassets in Resources */,
-				3EDC388F289AF2C300D08D2C /* Assets.xcassets in Resources */,
+				3EDC38BB289AF2EC00D08D2C /* License.txt in Resources */,
+				3EDC38BA289AF2EC00D08D2C /* README.md in Resources */,
+				3EDC38B1289AF2EC00D08D2C /* Preview Assets.xcassets in Resources */,
+				3EDC38AF289AF2EC00D08D2C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +178,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EDC388D289AF2C200D08D2C /* ContentView.swift in Sources */,
-				3EDC388B289AF2C200D08D2C /* Date_Planner_710387App.swift in Sources */,
+				3EDC38B4289AF2EC00D08D2C /* EventSymbols.swift in Sources */,
+				3EDC38B9289AF2EC00D08D2C /* EventDetail.swift in Sources */,
+				3EDC38B3289AF2EC00D08D2C /* EventList.swift in Sources */,
+				3EDC38B5289AF2EC00D08D2C /* EventEditor.swift in Sources */,
+				3EDC38AE289AF2EC00D08D2C /* Event.swift in Sources */,
+				3EDC38AD289AF2EC00D08D2C /* SymbolPicker.swift in Sources */,
+				3EDC38AC289AF2EC00D08D2C /* EventData.swift in Sources */,
+				3EDC38B8289AF2EC00D08D2C /* DatePlannerApp.swift in Sources */,
+				3EDC38B7289AF2EC00D08D2C /* EventTask.swift in Sources */,
+				3EDC38B2289AF2EC00D08D2C /* TaskRow.swift in Sources */,
+				3EDC38AB289AF2EC00D08D2C /* EventRow.swift in Sources */,
+				3EDC38B6289AF2EC00D08D2C /* ColorOption.swift in Sources */,
+				3EDC38B0289AF2EC00D08D2C /* SFSymbolStyling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +318,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Date Planner-710387/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = 3P5FLP6WQH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Date Planner-710387/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = 3P5FLP6WQH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
