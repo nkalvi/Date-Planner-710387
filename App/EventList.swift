@@ -6,19 +6,19 @@ import SwiftUI
 
 struct EventList: View {
     @EnvironmentObject var eventData: EventData
+    @EnvironmentObject var navigationModel: NavigationModel
     @State private var isAddingNewEvent = false
     @State private var newEvent = Event()
     
     var body: some View {
         
-        List {
+        List(selection: $navigationModel.sidebarDestination) {
             ForEach(Period.allCases) { period in
                 if !eventData.sortedEvents(period: period).isEmpty {
                     Section(content: {
                         ForEach(eventData.sortedEvents(period: period)) { $event in
-                            NavigationLink {
-                                EventEditor(event: $event)
-                            } label: {
+                            NavigationLink(value: HashableBindingWrapper<Event>(binding: $event))
+                            {
                                 EventRow(event: event)
                             }
                             .swipeActions {
