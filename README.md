@@ -15,3 +15,13 @@ This walkthrough teaches you how to use lists and an observable data model to cr
 ## Running the Sample Code Project
 
 Before you run the sample on a physical device, select a Development Team under the Signing & Capabilities section in the project editor.
+
+---
+2022-08-03
+Try to adapt this to use NavigationSplitView, while trying to keep the @Binding to pass events.
+
+Working:
+Selecting, adding, editing and deleting from edit view.
+
+Issues:
+Crashes when items are deleted in the list via swipe actions.
